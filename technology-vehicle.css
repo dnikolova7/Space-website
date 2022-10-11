@@ -1,0 +1,523 @@
+body {
+  background-image: url('assets/technology/background-technology-desktop.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.topcontainer {
+  justify-content: space-between;
+  display: flex;
+  padding-top: 40px;
+  height: 96px;
+  align-items: center;
+}
+
+.underline {
+  width: 70px;
+  height: 3px;
+  left: 152px;
+  top: 80px;
+  background: #FFFFFF;
+}
+
+.home {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  color: #FFFFFF;
+  text-decoration: none;
+  word-spacing: 12px;
+}
+
+.zerozero {
+  padding-right: 11px;
+}
+
+.border {
+  width: 80px;
+  height: 3px;
+  left: 693px;
+  top: 133px;
+  background: #FFFFFF;
+}
+
+.Destination {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  color: #FFFFFF;
+  text-decoration: none;
+  word-spacing: 12px;
+}
+
+.zeroone {
+  padding-right: 11px;
+}
+
+.crew {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  color: #FFFFFF;
+  text-decoration: none;
+  word-spacing: 12px;
+}
+
+.zerotwo {
+  padding-right: 11px;
+}
+
+.tech {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  color: #FFFFFF;
+  text-decoration: none;
+  word-spacing: 12px;
+  border-bottom: solid;
+}
+
+.zerothree {
+  padding-right: 11px;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  padding-left: 55px;
+}
+
+.box-4 {
+  justify-content: space-evenly;
+  height: 100%;
+  z-index: 3;
+  width: 830px;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(81.5485px);
+}
+
+.icon-menu {
+  display: none;
+}
+
+.box-4>a {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100%;
+}
+
+.rectangle {
+  position: absolute;
+  width: 473px;
+  height: 1px;
+  left: 167px;
+  top: 88px;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+  z-index: 9;
+}
+
+.middlecontainer {
+  display: flex;
+  flex-direction: row;
+  padding-top: 76px;
+  padding-left: 120px;
+}
+
+.number {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: 4.725px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+  padding-left: 38.5px;
+  padding-right: 28px;
+}
+
+.pick {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  letter-spacing: 4.725px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.bottomcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-evenly;
+}
+
+
+.right {
+  display: flex;
+  flex-direction: column;
+  padding-right: 131px;
+  padding-left: 81px;
+  padding-top: 62px;
+  width: 100%;
+}
+
+
+.term {
+  font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 2.7px;
+
+color: #D0D6F9;
+}
+
+.dh {
+  padding-top: 15px;
+  padding-bottom: 27px;
+  font-family: 'Bellefair';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.textt {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #D0D6F9;
+}
+
+.menudots {
+  display: flex;
+  flex-direction: column;
+  padding-top: 120px;
+}
+
+.dot1 {
+  border-radius: 80px;
+  background: #FFFFFF;
+  width: 80px;
+  height: 80px;
+  margin-right: 24px;
+  mix-blend-mode: normal;
+  font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 37px;
+text-decoration: none;
+
+text-align: center;
+letter-spacing: 2px;
+
+color: #0B0D17;
+margin-bottom: 32px;
+
+}
+
+.dot2 {
+  border-radius: 80px;
+  background: #FFFFFF;
+  width: 80px;
+  height: 80px;
+  margin-right: 24px;
+  mix-blend-mode: normal;
+  font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 37px;
+text-decoration: none;
+
+text-align: center;
+letter-spacing: 2px;
+
+color: #0B0D17;
+  opacity: 0.17;
+  margin-bottom: 32px;
+}
+
+.dot3 {
+  border-radius: 80px;
+  background: #FFFFFF;
+  width: 80px;
+  height: 80px;
+  margin-right: 24px;
+  mix-blend-mode: normal;
+  font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 37px;
+text-decoration: none;
+
+text-align: center;
+letter-spacing: 2px;
+
+color: #0B0D17;
+  opacity: 0.17;
+  margin-bottom: 32px;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    background-image: url('assets/crew/background-crew-tablet.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+  }
+
+  .logo {
+    width: 48px;
+    height: 48px;
+    padding-left: 20px;
+  }
+
+  .topcontainer {
+    padding: 0;
+    width: 100%;
+  }
+
+  .icon-menu {
+    display: none;
+  }
+
+  .rectangle {
+    display: none;
+  }
+
+  .box-4 {
+    width: 450px;
+    height: 96px;
+  }
+
+  .zerozero {
+    display: none;
+  }
+
+  .zeroone {
+    display: none;
+  }
+
+  .zerotwo {
+    display: none;
+  }
+
+  .zerothree {
+    display: none;
+  }
+
+  .middlecontainer {
+    padding-left: 0;
+    padding-top: 40px;
+  }
+
+  .number {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 3.375px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    padding-right: 19px;
+  }
+
+  .pick {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 3.375px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  .bottomcontainer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    text-align: center;
+  }
+
+
+  .right {
+    width: 60%;
+    padding-left: 0;
+    padding-top: 40px;
+    align-items: center;
+    padding-right: 0;
+  }
+
+  .textt {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .menudotss {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  body {
+    background-image: url('assets/destination/background-destination-mobile.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+  .topcontainer {
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .box-4 {
+    display: none;
+  }
+
+  .logo {
+    padding-left: 15px;
+  }
+
+  .icon-menu {
+    display: block;
+    padding-left: 50%;
+    padding-right: 0px;
+  }
+
+  .rectangle {
+    display: none;
+  }
+
+  .middlecontainer {
+    display: flex;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .number {
+    font-size: 16px;
+  }
+
+  .pick {
+    font-size: 16px;
+  }
+
+  .bottomcontainer {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 0;
+    width: 100%;
+  }
+
+
+  .right {
+    width: 50%;
+    padding-top: 32px;
+    padding-right: 0px;
+    padding-left: 0;
+  }
+
+  .textt {
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 79px;
+  }
+
+  .dh {
+    font-size: 24px;
+    padding-top: 8px;
+    padding-bottom: 16px;
+  }
+
+  .term {
+    font-size: 16px;
+  }
+
+  .menudots {
+    display: none;
+  }
+
+  .menudotss {
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .dot11 {
+    border-radius: 15px;
+    background: #FFFFFF;
+    width: 15px;
+    height: 15px;
+    margin-right: 24px;
+    mix-blend-mode: normal;
+    opacity: 0.17;
+  }
+
+  .dot22 {
+    border-radius: 15px;
+    background: #FFFFFF;
+    width: 15px;
+    height: 15px;
+    margin-right: 24px;
+    mix-blend-mode: normal;
+    opacity: 0.17;
+  }
+
+  .dot33 {
+    border-radius: 15px;
+    background: #FFFFFF;
+    width: 15px;
+    height: 15px;
+    margin-right: 24px;
+    mix-blend-mode: normal;
+    opacity: 0.17;
+  }
+
+
+}
