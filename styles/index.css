@@ -7,6 +7,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0;
 }
 
 .topcontainer {
@@ -121,8 +122,6 @@ body {
   z-index: 3;
   width: 830px;
   display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
   flex-direction: row;
   background: rgba(255, 255, 255, 0.04);
   backdrop-filter: blur(81.5485px);
@@ -213,6 +212,8 @@ body {
   border-radius: 50%;
   margin-top: 310px;
   margin-right: 200px;
+  display: flex;
+
 }
 
 .exp {
@@ -225,6 +226,10 @@ body {
   color: #0B0D17;
   padding-left: 60px;
   padding-top: 85px;
+}
+
+.exploree {
+  text-decoration: none;
 }
 
 .bottomcontainer {
@@ -343,6 +348,7 @@ body {
   .logo {
     width: 40px;
     height: 40px;
+    padding-left: 15px;
   }
 
   .circle {
@@ -356,7 +362,8 @@ body {
 
   .icon-menu {
     display: block;
-    padding-left: 300px;
+    padding-left: 50%;
+    padding-right: 5%;
   }
 
   .rectangle {
@@ -366,17 +373,22 @@ body {
   .middlecontainer {
     padding-left: 0;
     padding-top: 30px;
+    padding-right: 0;
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
+    width: 100%;
+    height: 60%;
+    float: none;
   }
 
-  .TRAVEL {
+  .travel {
     text-align: center;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
     letter-spacing: 2.7px;
+    width: 100%;
   }
 
   .space {
@@ -399,14 +411,18 @@ body {
   .bottomcontainer {
     padding-right: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    margin-right: 30%;
   }
 
   .circle {
     width: 150px;
     height: 150px;
     margin-top: 0px;
-    margin-right: 70px;
+    margin-right: 7px;
+    align-content: center !important;
+
   }
 
   .exp {
@@ -414,4 +430,152 @@ body {
     padding-left: 25px;
     padding-top: 45px;
   }
+
+}
+
+
+#mobile-menu-container {
+  display: none;
+  background: rgba(255, 255, 255, 0.04);
+backdrop-filter: blur(81.5485px);
+  z-index: 9999;
+  position: absolute;
+  width: 70%;
+  right: 0;
+  height: 100%;
+  top: 0;
+}
+
+.mobile-menu-icon-close {
+  margin-left: 90%;
+margin-top: 5%;
+margin-right: 5%;
+background-color: rgba(255, 255, 255, 0.04);
+color: white;
+    border-radius: 50%;
+    border-color: rgba(255, 255, 255, 0.04);
+    font-size: 19px;
+}
+
+.mobile-menu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.home-mobile {
+text-decoration: none;
+font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 2.7px;
+
+color: #FFFFFF;
+
+}
+
+.zerozero00 {
+  font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 2.7px;
+
+color: #FFFFFF;
+
+}
+
+.destination-mobile {
+  text-decoration: none;
+  font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 2.7px;
+
+color: #FFFFFF;
+
+}
+
+.zeroone01 {
+  font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 2.7px;
+
+color: #FFFFFF;
+
+}
+
+.crew-mobile {
+  text-decoration: none;
+  font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 2.7px;
+
+color: #FFFFFF;
+}
+
+.zerotwo02 {
+  font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 2.7px;
+
+color: #FFFFFF;
+}
+
+.technology-mobile {
+  text-decoration: none;
+  font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 2.7px;
+
+color: #FFFFFF;
+}
+
+.zerothree03 {
+  font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 2.7px;
+
+color: #FFFFFF;
+}
+
+.li1 {
+  padding-bottom: 32px;
+  padding-top: 118px;
+}
+
+.li2 {
+  padding-bottom: 32px;
+
+}
+
+.li3 {
+  padding-bottom: 32px;
+
+}
+
+.li4 {
+  padding-bottom: 32px;
+
 }

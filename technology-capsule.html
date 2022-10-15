@@ -1,32 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="technology-capsule.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+
+
+
   <title>Frontend Mentor | Space tourism website</title>
-</head>
-<body>
+  <script>
+    window.addEventListener('load', function(){
+      document.querySelector('#mobile-menu-icon').addEventListener('click', function() {
+        document.querySelector('#mobile-menu-container').style.display = "block";
+        // document.body.style.overflowY = "hidden";
+      });
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+      document.querySelector('#mobile-menu-icon-close').addEventListener('click', function() {
+        document.querySelector('#mobile-menu-container').style.display = "none";
+        // document.body.style.overflowY = "auto";
+      });
+    });
+  </script>
+  </head>
 
-  03 Space launch 101
+  <body>
+  <div id="mobile-menu-container">
+    <button class="mobile-menu-icon-close"id="mobile-menu-icon-close">X</button>
+    <ul class="mobile-menu">
+      <li class="li1"> <a class="home-mobile" href="index.html"><span class="zerozero00">00</span> Home</a> </li>
+      <li class="li2"> <a class="destination-mobile"href="destination-moon.html"><span class="zeroone01">01</span> Destination</a> </li>
+      <li class="li3"> <a class="crew-mobile"href="crew-commander.html"><span class="zerotwo02">02</span> Crew</a> </li>
+      <li class="li4"> <a class="technology-mobile"href="technology-vehicle.html"><span class="zerothree03">03</span> Technology</a> </li>
 
-  1
-  2
-  3
+    </ul>
+  </div>
+  <div class="topcontainer">
 
-  The terminology...
-  Space capsule
+    <div class="box-1">
+      <img class="logo" src="assets/shared/logo.svg" alt="logo">
+    </div>
+    <div class="rectangle">
 
-  A space capsule is an often-crewed spacecraft that uses a blunt-body reentry 
-  capsule to reenter the Earth's atmosphere without wings. Our capsule is where 
-  you'll spend your time during the flight. It includes a space gym, cinema, 
-  and plenty of other activities to keep you entertained.
+    </div>
+    <div class="box-4">
+
+      <a class="home" href="index.html">
+        <p class="zerozero">00</p>
+        Home
+      </a>
+      <a class="Destination" href="destination-moon.html">
+        <p class="zeroone">01</p> Destination
+      </a>
+      <a class="crew" href="crew-commander.html">
+        <p class="zerotwo">02</p> Crew
+      </a>
+      <a class="tech" href="technology-vehicle.html">
+        <p class="zerothree">03</p> Technology
+      </a>
+
+    </div>
+    <div class="icon-menu">
+      <img src="styles/Hamburger_icon_white.svg" id="mobile-menu-icon" alt="MENU">
+    </div>
+  </div>
+  <div class="middlecontainer">
+
+    <p class="number">
+      03
+    </p>
+    <p class="pick">Space launch 101</p>
+
+  </div>
+  <div class="bottomcontainer">
+    <div class="menudots">
+      <a class="dot1" href="technology-vehicle.html">1</a>
+      <a class="dot2" href="technology-spaceport.html">2</a>
+      <a class="dot3" href="technology-capsule.html">3</a>
+    </div>
+
+    <div class="middle">
+      <div class="term">
+        The terminology...
+      </div>
+      <div class="dh">
+        Space capsule
+      </div>
+      <div class="textt">
+        A space capsule is an often-crewed spacecraft that uses a blunt-body reentry
+        capsule to reenter the Earth's atmosphere without wings. Our capsule is where
+        you'll spend your time during the flight. It includes a space gym, cinema,
+        and plenty of other activities to keep you entertained.
+      </div>
+    </div>
+    <div class="menudotss">
+      <a class="dot11" href="technology-vehicle.html">1</a>
+      <a class="dot22" href="technology-spaceport.html">2</a>
+      <a class="dot33" href="technology-capsule.html">3</a>
+    </div>
+    <div class="right">
+
+      <img class="launch-vehicle" src="assets/technology/image-space-capsule-portrait.jpg" alt="Space Capsule">
+    </div>
+    <div class="right2">
+      <img class="launch-vehicleland" src="assets/technology/image-space-capsule-landscape.jpg" alt="Space Capsule">
+    </div>
+  </div>
 </body>
+
+
 </html>

@@ -19,9 +19,33 @@
 
 
   <title>Frontend Mentor | Space tourism website</title>
+
+  <script>
+    window.addEventListener('load', function(){
+      document.querySelector('#mobile-menu-icon').addEventListener('click', function() {
+        document.querySelector('#mobile-menu-container').style.display = "block";
+        // document.body.style.overflowY = "hidden";
+      });
+
+      document.querySelector('#mobile-menu-icon-close').addEventListener('click', function() {
+        document.querySelector('#mobile-menu-container').style.display = "none";
+        // document.body.style.overflowY = "auto";
+      });
+    });
+  </script>
 </head>
 
 <body>
+  <div id="mobile-menu-container">
+    <button class="mobile-menu-icon-close"id="mobile-menu-icon-close">X</button>
+    <ul class="mobile-menu">
+      <li class="li1"> <a class="home-mobile" href="index.html"><span class="zerozero00">00</span> Home</a> </li>
+      <li class="li2"> <a class="destination-mobile"href="destination-moon.html"><span class="zeroone01">01</span> Destination</a> </li>
+      <li class="li3"> <a class="crew-mobile"href="crew-commander.html"><span class="zerotwo02">02</span> Crew</a> </li>
+      <li class="li4"> <a class="technology-mobile"href="technology-vehicle.html"><span class="zerothree03">03</span> Technology</a> </li>
+
+    </ul>
+  </div>
   <div class="topcontainer">
 
     <div class="box-1">
@@ -42,7 +66,7 @@
 
     </div>
     <div class="icon-menu">
-      <img src="styles/Hamburger_icon_white.svg" alt="MENU">
+      <img src="styles/Hamburger_icon_white.svg" id="mobile-menu-icon" alt="MENU">
     </div>
   </div>
   <div class="middlecontainer">
@@ -58,9 +82,9 @@
   <div class="bottomcontainer">
 
     <span class="circle">
-      <p class="exp">
+      <a class="exploree"href="destination-moon.html"><p class="exp">
         EXPLORE
-      </p>
+      </p></a>
     </span>
   </div>
 

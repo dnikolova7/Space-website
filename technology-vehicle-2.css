@@ -1,0 +1,327 @@
+body {
+  background-image: url('assets/technology/background-technology-desktop.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0px !important;
+  background-position: center;
+  background-size: cover;
+}
+
+.color-white {
+  color: #FFFFFF;
+}
+
+.flex {
+  display: flex;
+}
+
+.barlow-ff {
+  font-family: 'Barlow Condensed';
+}
+
+.topcontainer {
+  justify-content: space-between;
+  padding-top: 40px;
+  height: 96px;
+  align-items: center;
+}
+
+.home-heading {
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  text-decoration: none;
+}
+
+.active {
+  height: 100%;
+  align-items: center;
+  border-bottom: solid;
+}
+
+.zerozero {
+  padding-right: 11px;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  padding-left: 55px;
+}
+
+.box-4 {
+  justify-content: space-evenly;
+  height: 100%;
+  z-index: 3;
+  width: 830px;
+  align-items: center;
+  flex-direction: row;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(81.5485px);
+}
+
+.icon-menu {
+  display: none;
+}
+
+.rectangle {
+  position: absolute;
+  width: 473px;
+  height: 1px;
+  left: 167px;
+  top: 88px;
+  background: #FFFFFF;
+  opacity: 0.25;
+  z-index: 9;
+}
+
+.middlecontainer {
+  flex-direction: row;
+  padding-top: 76px;
+  font-size: 28px;
+  letter-spacing: 4.725px;
+  padding-left: 120px;
+}
+
+.number {
+  font-weight: 700;
+  opacity: 0.25;
+  padding-left: 38.5px;
+  padding-right: 28px;
+}
+
+.bottomcontainer {
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-evenly;
+}
+
+.right {
+  padding-left: 130px;
+  padding-bottom: 101px;
+}
+
+.right2 {
+  display: none;
+}
+
+.term {
+  letter-spacing: 2.7px;
+  color: #D0D6F9;
+}
+
+.dh {
+  padding-top: 15px;
+  padding-bottom: 27px;
+  font-family: 'Bellefair';
+  font-size: 56px;
+}
+
+.textt {
+  font-family: 'Barlow';
+  font-size: 18px;
+  line-height: 32px;
+  color: #D0D6F9;
+}
+
+.menudots {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 120px;
+  padding-left: 165px;
+  padding-right: 80px;
+}
+
+.active-dot {
+  color: #0B0D17 !important;
+  opacity: 1 !important;
+  text-align: center;
+  background: #FFFFFF !important;
+}
+
+.dot {
+  align-items: center;
+  justify-content: center;
+  border-radius: 80%;
+  width: 80px;
+  height: 80px;
+  margin-right: 80px;
+  opacity: 0.25;
+  border: 1px solid #FFFFFF;
+  margin-bottom: 32px;
+  font-family: 'Bellefair';
+  font-size: 32px;
+  line-height: 37px;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.menudotss {
+  display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    background-image: url('assets/technology/background-technology-tablet.jpg');
+  }
+
+  .topcontainer {
+    padding: 0;
+  }
+
+  .rectangle {
+    display: none;
+  }
+
+  .box-4 {
+    width: 450px;
+  }
+
+  .zerozero {
+    display: none;
+  }
+
+  .middlecontainer {
+    padding-left: 0;
+    padding-top: 40px;
+  }
+
+  .number {
+    font-size: 24px;
+    letter-spacing: 3.375px;
+    padding-right: 19px;
+  }
+
+  .pick {
+    font-size: 24px;
+  }
+
+  .bottomcontainer {
+    flex-direction: column-reverse;
+    padding-top: 60px;
+    text-align: center;
+  }
+
+  .dh {
+    font-size: 40px;
+    padding-bottom: 16px;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .right2 {
+    display: flex;
+    order: 3;
+  }
+
+  .textt {
+    max-width: 458px;
+  }
+
+  .menudots {
+    flex-direction: row;
+    order: 2;
+    padding-top: 56px;
+  }
+
+  .middle {
+    order: 1;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  body {
+    background-image: url('assets/technology/background-technology-mobile.jpg');
+  }
+
+  .topcontainer {
+    padding-top: 10px;
+  }
+
+  .box-4 {
+    display: none;
+  }
+
+  .logo {
+    padding-left: 15px;
+  }
+
+  .icon-menu {
+    display: block;
+  }
+
+  .rectangle {
+    display: none;
+  }
+
+  .middlecontainer {
+    padding: 0;
+    justify-content: center;
+  }
+
+  .number {
+    font-size: 16px;
+  }
+
+  .pick {
+    font-size: 16px;
+  }
+
+  .bottomcontainer {
+    flex-direction: column-reverse;
+    padding-bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .right2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    order: 3;
+  }
+
+  .menudots {
+    flex-direction: row;
+    order: 2;
+    padding: 0px;
+    padding-top: 56px;
+  }
+
+  .middle {
+    order: 1;
+  }
+
+  .textt {
+    font-size: 15px;
+    width: 100%;
+    padding-bottom: 56px;
+  }
+
+  .dh {
+    font-size: 24px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+
+  .dot {
+    height: 40px;
+    width: 40px;
+  }
+
+  .term {
+    font-size: 16px;
+    text-align: center;
+    font-size: 14px;
+  }
+}
